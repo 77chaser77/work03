@@ -1,8 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gugi&display=swap');
+
+a
+{
+  text-decoration: none;
+  color: white ;
+}
 
 body
 {
-  background-color: rgb(63, 61, 78);
-  color: rgb(198, 228, 255);
-  
+  color: white;
+}
+
+.menu a
+{
+  padding: 15px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.menu a:hover
+{
+  color: aquamarine;
+  border-bottom: 3px aquamarine solid;
+}
+
+body .title
+{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 170px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
 }
