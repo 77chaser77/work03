@@ -33,3 +33,41 @@ body .title
   top: 20%;
   transform: translate(-50%, -50%);
 }
+
+.icons
+{
+  font-size: 120px;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.icons :hover
+{
+  color:rgb(255, 190, 68)
+}
+
+.copy
+{
+  color: bisque;
+  position: absolute;
+  left: 50%;
+  top: 92%;
+  transform: translate(-50%, -50%);
+}
+
+.push
+{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 83%;
+  transform: translate(-50%, -50%);
+}
+
+.push:hover
+{
+  color:rgb(255, 190, 68)
+}
